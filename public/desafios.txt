@@ -1,0 +1,16 @@
+Desafios a implementar no app
+
+01 - Página de sucesso
+
+    - Mostrar página de sucesso após o cadastro do proffy [ ]
+    - aguardar 2 segundos na página e redirecionar para a listagem dos proffys [ ]
+        - usar setTimeout para aguardar os 2 segundos
+        - location.href = ""
+
+
+02 - Correção de bugs
+    - Criar opção de exclusão de horário [ ]
+    - Criar regra para não permitir adicionar horário em branco [ ]
+
+    - Fazer a contagem de quantos professores encontrou no filtro e mostrar ao usuário
+    
