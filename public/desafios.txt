@@ -12,5 +12,5 @@ Desafios a implementar no app
     - Criar opção de exclusão de horário [ ]
     - Criar regra para não permitir adicionar horário em branco [ ]
 
-    - Fazer a contagem de quantos professores encontrou no filtro e mostrar ao usuário
+    - Fazer a contagem de quantos professores encontrou no filtro e mostrar ao usuário [ ]
     
