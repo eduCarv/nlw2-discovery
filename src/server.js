@@ -6,7 +6,8 @@ const  {
     pageLanding,
     pageStudy,
     pageGiveClasses,
-    saveClasses
+    saveClasses,
+    pageSaveSuccess
 } = require('./pages')
 
 
@@ -27,6 +28,8 @@ server
 .get("/", pageLanding)
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
+.get("/save-success", pageSaveSuccess)
 .post("/save-classes", saveClasses)
+
 // start do servidor
 .listen(5500)

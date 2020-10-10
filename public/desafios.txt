@@ -2,8 +2,8 @@ Desafios a implementar no app
 
 01 - Página de sucesso
 
-    - Mostrar página de sucesso após o cadastro do proffy [ ]
-    - aguardar 2 segundos na página e redirecionar para a listagem dos proffys [ ]
+    - Mostrar página de sucesso após o cadastro do proffy [ x ]
+    - aguardar 2 segundos na página e redirecionar para a listagem dos proffys [ x ]
         - usar setTimeout para aguardar os 2 segundos
         - location.href = ""
 

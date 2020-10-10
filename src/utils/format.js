@@ -8,7 +8,7 @@ const subjects = [
     "História",
     "Matemática",
     "Português",
-    "Quí-mica",
+    "Química",
 ]
 
 const weekdays = [
@@ -35,5 +35,6 @@ module.exports = {
     subjects,
     weekdays,
     getSubject,
-    convertHoursToMinutes
+    convertHoursToMinutes    
 }
+

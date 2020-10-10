@@ -1,6 +1,7 @@
+const { query } = require('express')
 const Database = require('./database/db')
 
-const { subjects, weekdays, getSubject, convertHoursToMinutes} = require('./utils/format')
+const { subjects, weekdays, getSubject, convertHoursToMinutes, saveData} = require('./utils/format')
 
 
 function pageLanding(req, res) {
@@ -83,17 +84,25 @@ async function saveClasses(req, res) {
         let queryString = "?subject=" + req.body.subject
         queryString += "&weekday=" + req.body.weekday[0]
         queryString += "&time=" + req.body.time_from[0]
+                
 
-        return res.redirect("/study" + queryString)
+        return res.redirect("/save-success" + queryString)
+        
     } catch (error) {
         console.log(error)
     }
     
 }
 
+function pageSaveSuccess(req, res) {
+    return res.render("save-success.html")
+}
+
+
 module.exports = {
     pageLanding,
     pageStudy,
     pageGiveClasses,
-    saveClasses
+    saveClasses,
+    pageSaveSuccess
 }

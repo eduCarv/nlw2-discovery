@@ -1,0 +1,22 @@
+#page-save-success  {
+    background: var(--color-primary);
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#container .success-message {
+    text-align: center;
+    color: var(--color-text-in-primary);
+    position: absolute;
+}
+
+#container img {    
+    position: relative;
+    width: 100%;
+}
+
